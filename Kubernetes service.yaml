@@ -10,3 +10,5 @@ spec:
     port: 8080
     targetPort: 8080
   type: NodePort
+
+#Here, we're defining a Kubernetes service for our application, specifying the deployment selector to use, exposing port 8080, and using NodePort as the service type.
