@@ -17,6 +17,7 @@ the MongoDB pod the records in the db should not disappear.
 To complete this task, you can follow these steps:
 
 1. Create a Dockerfile for your application. You can use the following Dockerfile as an example:
+        Here, we're using OpenJDK 11 as our base image, copying our application jar file to the container, and setting environment variables for MongoDB host and port.
 2. Build a Docker image for your application using the Dockerfile:
 3. Create a Kubernetes deployment manifest for your application. You can use the following example as a starting point:
 4. Create a Kubernetes service manifest for your application. You can use the following example as a starting point:
