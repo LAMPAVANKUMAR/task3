@@ -1,0 +1,3 @@
+kubectl apply -f mongo.yaml
+kubectl apply -f myapp.yaml
+kubectl apply -f myapp-svc.yaml
