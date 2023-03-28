@@ -35,4 +35,5 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 1Gi
+      storage: 1Gi     
+#Here, we're defining a Kubernetes deployment for MongoDB, specifying the Docker image to use, exposing port 27017, and defining a persistent volume claim for data storage.
