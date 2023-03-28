@@ -22,3 +22,5 @@ spec:
           value: "27017"
         ports:
         - containerPort: 8080
+
+# Here, we're defining a Kubernetes deployment for our application, specifying the Docker image to use, setting environment variables for MongoDB host and port, and exposing port 8080.
